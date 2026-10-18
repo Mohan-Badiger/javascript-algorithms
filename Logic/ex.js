@@ -58,15 +58,35 @@
 // console.log(leafYear(2005));
 
 
+// --------------------------------------------------------------------
+//Take two numbers and print larger one
 
-var a = 500;
-{
-    var a = -500;
-}
+// function larger(num1, num2) {
 
-let b = a
-{
-    let b = -1000;
-}
+//     if (num1 > num2) return num1
+//     else return num2
 
-console.log(b);
+// }
+
+// console.log(larger(5, 6));
+
+
+// ------------------------------------------------------------
+//Take three numbers and print larger one
+
+// function largestOfThree(num1, num2, num3) {
+//     if (num1 >= num2 && num1 >= num3) {
+//         return num1
+//     } else if (num2 >= num1 && num2 >= num3) {
+//         return num2
+//     }
+//     else {
+//         return num3
+//     }
+// }
+
+// console.log(largestOfThree(5, 7, 5));
+
+
+//temperature values for cold warm and hot
+
