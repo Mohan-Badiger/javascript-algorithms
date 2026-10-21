@@ -150,24 +150,35 @@
 // Take marks (0–100) and print the corresponding grade (A/B/C/D/F).-------------------------------------------
 
 function grade(marks) {
+    // Optional: Check if the input is a valid number within a normal range
+    if (typeof marks !== 'number' || marks < 0 || marks > 100) {
+        return "Enter correct Input";
+    }
 
     let grade;
 
     switch (true) {
-        case marks > 90: grade = "A"
+        case marks > 90:
+            grade = "A";
             break;
-        case marks < 70 && marks > 89: grade = "B"
+        case marks >= 70: // Catches everything from 70 to 90
+            grade = "B";
             break;
-        case marks < 50 && marks > 69: grade = "c"
+        case marks >= 50: // Catches everything from 50 to 69
+            grade = "c";
             break;
-        case marks < 35 && marks > 49: grade = "D"
+        case marks >= 35: // Catches everything from 35 to 49
+            grade = "D";
             break;
-        case marks < 30 && marks > 34: grade = "E"
+        case marks >= 30: // Catches everything from 30 to 34
+            grade = "E";
             break;
-        default: return "Enter correct Input"
+        default:
+            grade = "F"; // Standard failing grade for marks below 30
             break;
     }
-    return grade
-
+    return grade;
 }
-console.log(grade(60));
+
+console.log(grade(60)); // Outputs: "c"
+
