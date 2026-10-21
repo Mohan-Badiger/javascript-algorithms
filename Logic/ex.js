@@ -107,22 +107,67 @@
 // console.log(linearSearch([5,2,6,4,8,2,7,6,7], 4));
 
 
-//take a characten and check weather it is a vowel or character
+//take a characten and check weather it is a vowel or character ------------------------------
 
-function vorc(char){
+// function vorc(char){
 
-    let newchar = char.toUpperCase()
+//     let newchar = char.toUpperCase()
 
-    let vowel = "AEIOU"
+//     let vowel = "AEIOU"
 
-    if(vowel.includes(newchar)){
-        return "vowel"
+//     if(vowel.includes(newchar)){
+//         return "vowel"
+//     }
+//     if(newchar >= "A" && newchar <= "Z"){
+//         return "Constant"
+//     }
+
+//     return "Invali Input"
+// }
+
+// console.log(vorc("4"));
+
+// Take a character and check whether it’s uppercase, lowercase, a digit, or a special character.-----------------------
+
+// function validation(char) {
+
+//     if (char >= "A" && char <= "Z") {
+//         return "It is a uppercase"
+//     }
+//     else if (char >= "a" && char <= "z") {
+//         return "It is a lowercase"
+//     }
+//     else if (char > 0 && char < 9) {
+//         return "It is a digit"
+//     } else {
+//         return "It is a special character"
+//     }
+// }
+
+// console.log(validation("-"));
+
+
+// Take marks (0–100) and print the corresponding grade (A/B/C/D/F).-------------------------------------------
+
+function grade(marks) {
+
+    let grade;
+
+    switch (true) {
+        case marks > 90: grade = "A"
+            break;
+        case marks < 70 && marks > 89: grade = "B"
+            break;
+        case marks < 50 && marks > 69: grade = "c"
+            break;
+        case marks < 35 && marks > 49: grade = "D"
+            break;
+        case marks < 30 && marks > 34: grade = "E"
+            break;
+        default: return "Enter correct Input"
+            break;
     }
-    if(newchar >= "A" && newchar <= "Z"){
-        return "Constant"
-    }
+    return grade
 
-    return "Invali Input"
 }
-
-console.log(vorc("4"));
+console.log(grade(60));
