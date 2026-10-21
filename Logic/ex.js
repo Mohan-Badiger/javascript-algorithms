@@ -90,3 +90,39 @@
 
 //temperature values for cold warm and hot
 
+
+//linear search
+
+// function linearSearch(num, target){
+
+//     for(let i=0; i<num.length; i++){
+//         if(target === num[i]){
+//             return i
+//         }
+//     }
+//     return -1
+// }
+
+
+// console.log(linearSearch([5,2,6,4,8,2,7,6,7], 4));
+
+
+//take a characten and check weather it is a vowel or character
+
+function vorc(char){
+
+    let newchar = char.toUpperCase()
+
+    let vowel = "AEIOU"
+
+    if(vowel.includes(newchar)){
+        return "vowel"
+    }
+    if(newchar >= "A" && newchar <= "Z"){
+        return "Constant"
+    }
+
+    return "Invali Input"
+}
+
+console.log(vorc("4"));
