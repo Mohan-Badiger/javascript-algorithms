@@ -149,36 +149,63 @@
 
 // Take marks (0–100) and print the corresponding grade (A/B/C/D/F).-------------------------------------------
 
-function grade(marks) {
-    // Optional: Check if the input is a valid number within a normal range
-    if (typeof marks !== 'number' || marks < 0 || marks > 100) {
-        return "Enter correct Input";
-    }
+// function grade(marks) {
+//     // Optional: Check if the input is a valid number within a normal range
+//     if (typeof marks !== 'number' || marks < 0 || marks > 100) {
+//         return "Enter correct Input";
+//     }
 
-    let grade;
+//     let grade;
 
-    switch (true) {
-        case marks > 90:
-            grade = "A";
-            break;
-        case marks >= 70: // Catches everything from 70 to 90
-            grade = "B";
-            break;
-        case marks >= 50: // Catches everything from 50 to 69
-            grade = "c";
-            break;
-        case marks >= 35: // Catches everything from 35 to 49
-            grade = "D";
-            break;
-        case marks >= 30: // Catches everything from 30 to 34
-            grade = "E";
-            break;
-        default:
-            grade = "F"; // Standard failing grade for marks below 30
-            break;
+//     switch (true) {
+//         case marks > 90:
+//             grade = "A";
+//             break;
+//         case marks >= 70: // Catches everything from 70 to 90
+//             grade = "B";
+//             break;
+//         case marks >= 50: // Catches everything from 50 to 69
+//             grade = "c";
+//             break;
+//         case marks >= 35: // Catches everything from 35 to 49
+//             grade = "D";
+//             break;
+//         case marks >= 30: // Catches everything from 30 to 34
+//             grade = "E";
+//             break;
+//         default:
+//             grade = "F"; // Standard failing grade for marks below 30
+//             break;
+//     }
+//     return grade;
+// }
+
+// console.log(grade(60)); // Outputs: "c"
+
+
+// Take the hour of the day (0–23) and print “Good Morning”, “Good Afternoon”, “Good Evening”, or “Good Night”.
+
+function wish(time) {
+
+    let wish;
+
+    if (time > 24 && time < 0) {
+        return "Invalid Time"
+    } else {
+        switch (true) {
+            case time > 19: wish = "Gud Night"
+                break;
+            case time > 15: wish = "Gud Evening"
+                break;
+            case time > 12: wish = "Gud Afternoon"
+                break;
+            case time > 0: wish = "Gud Morning"
+                break;
+            default: wish = "Invalid Time"
+                break;
+        }
     }
-    return grade;
+    return wish;
 }
 
-console.log(grade(60)); // Outputs: "c"
-
+console.log(wish(20));
