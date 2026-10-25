@@ -29,16 +29,39 @@ console.log(largest([4, 5, 1, 3]));
 // console.log(Math.round(pay * 100) / 100);
 
 
-function largest(arr) {
+// function largest(arr) {
 
-    let large = arr[0]
+//     let large = arr[0]
 
-    for (let i = 1; i < arr.length; i++) {
-        if (arr[i] > large) {
-            large = arr[i]
-        }
-    }
-    return large
-}
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i] > large) {
+//             large = arr[i]
+//         }
+//     }
+//     return large
+// }
 
-console.log(largest([5, 4, 2, 5, 2]));
+// console.log(largest([5, 4, 2, 5, 2]));
+
+
+// function largest (arr){
+
+//     let large = arr[0];
+//     let sec = arr[1]
+//     let thr = arr[2]
+
+//     for(let i=0; i < arr.length; i++){
+//         if(arr[i] > large){
+//             thr = sec
+//             sec = large
+//             large = arr[i]
+//         }
+//     }
+
+//     return thr;
+
+// }
+
+// console.log(largest([3,4,5,6,7,8,9,0]));
+
+
