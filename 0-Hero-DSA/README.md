@@ -104,3 +104,4 @@ node 0-Hero-DSA/01-Number-and-Math-Basics/01-extracting-digits.js
 # Example: Run pattern printing
 node 0-Hero-DSA/02-Patterns-and-Nested-Loops/01-star-patterns.js
 ```
+
