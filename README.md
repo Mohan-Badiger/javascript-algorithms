@@ -10,6 +10,15 @@ This repository contains personal problem-solving practice, structured conceptua
 ```
 DSA_with_JavaScript/
 │
+├── 📁 0-Hero-DSA/             # 🟢 START HERE: Absolute beginner 0-to-Hero track (Thinking, Math, Patterns, Fresher Starters)
+│   ├── 00-Thinking-Framework/ # Dry-run technique on paper, Big-O simplified
+│   ├── 01-Number-and-Math-Basics/ # Digit extraction (% 10), primes, palindrome numbers, GCD
+│   ├── 02-Patterns-and-Nested-Loops/ # Star & number pattern printing
+│   ├── 03-Array-Basics-HandsOn/ # Loops from scratch, min/max, two-pointer reverse, frequency map
+│   ├── 04-String-Basics-HandsOn/ # String traversal, palindrome, anagram check
+│   ├── 05-Fresher-Interview-Problems/ # Top 5 campus starters (FizzBuzz, Two Sum, Move Zeroes, etc.)
+│   └── 06-Daily-Practice-Challenges/ # 25-Day beginner problem bank with hints
+│
 ├── 📁 DSA/                   # Problem-solving practice, algorithms & LeetCode solutions
 │   ├── Array/
 │   ├── Basic/
@@ -20,7 +29,7 @@ DSA_with_JavaScript/
 │   ├── sorting/
 │   └── time and space complexity.txt
 │
-├── 📁 DSA-Mastery_JS/        # Complete structured DSA concepts & learning modules
+├── 📁 DSA-Mastery_JS/        # 🔵 INTERMEDIATE TO ADVANCED: Complete structured DSA modules
 │   ├── 🌟 SDE-FRESHER-DSA-PATTERNS.md  # 15 Core Patterns & SDE Fresher Master Roadmap
 │   ├── 01-Arrays/            # Deep dive into Arrays, Dutch Flag, Overlapping Intervals
 │   ├── 02-Strings/           # String algorithms, Sliding Window, Group Anagrams
