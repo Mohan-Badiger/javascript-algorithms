@@ -99,3 +99,4 @@ console.log(findMinAndMax([34, -5, 89, 12, -45, 67]));
 console.log("\n=== 3. SECOND LARGEST ===");
 console.log("Second largest in [12, 35, 1, 10, 34, 1]:", findSecondLargest([12, 35, 1, 10, 34, 1]), "(Expected: 34)");
 console.log("Second largest in [10, 10, 10]:", findSecondLargest([10, 10, 10]), "(Expected: null - no distinct second)");
+
