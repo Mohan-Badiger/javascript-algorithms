@@ -119,3 +119,4 @@ patternNumberTriangle(5);
 patternRowNumberTriangle(4);
 patternFloydsTriangle(4);
 patternBinaryTriangle(5);
+
