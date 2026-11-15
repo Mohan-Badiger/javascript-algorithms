@@ -69,3 +69,4 @@ console.log("Count of 25:", countOccurrences(testArr, 25), "(Expected: 3)");
 console.log("\n=== 3. IS SORTED CHECK ===");
 console.log("isSorted([1, 2, 3, 4, 5]):", isArraySorted([1, 2, 3, 4, 5]), "(Expected: true)");
 console.log("isSorted([1, 3, 2, 4, 5]):", isArraySorted([1, 3, 2, 4, 5]), "(Expected: false)");
+

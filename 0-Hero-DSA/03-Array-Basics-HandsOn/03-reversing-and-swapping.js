@@ -97,3 +97,4 @@ console.log("\n=== 3. REVERSE SUBARRAY (Index 1 to 3) ===");
 const list3 = [100, 200, 300, 400, 500];
 reverseSubArray(list3, 1, 3);
 console.log("After subarray reverse:", list3, "(Expected: [100, 400, 300, 200, 500])");
+
