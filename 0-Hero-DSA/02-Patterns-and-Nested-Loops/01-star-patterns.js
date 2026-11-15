@@ -134,3 +134,4 @@ patternSquare(4);
 patternRightTriangle(5);
 patternInvertedTriangle(5);
 patternPyramid(4);
+

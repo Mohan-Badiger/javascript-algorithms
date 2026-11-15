@@ -108,3 +108,4 @@ console.log("reverseNumber(-456):", reverseNumber(-456), "(Expected: -654)");
  * Write a function `productOfDigits(n)` that multiplies all digits of a number.
  * Example: 234 -> 2 * 3 * 4 = 24.
  */
+

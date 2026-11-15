@@ -86,3 +86,4 @@ console.log("\n=== 2. ARMSTRONG NUMBER TESTS ===");
 console.log("isArmstrong(153):", isArmstrongNumber(153), "(Expected: true -> 1+125+27 = 153)");
 console.log("isArmstrong(371):", isArmstrongNumber(371), "(Expected: true -> 27+343+1 = 371)");
 console.log("isArmstrong(123):", isArmstrongNumber(123), "(Expected: false)");
+
